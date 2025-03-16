@@ -19,9 +19,12 @@ const HeroSection = () => {
             <span className="text-nexus-purple">Up-Nexus:</span> Gravity for Innovation
           </h1>
           
-          <p className="text-xl text-white/80 mb-8 max-w-2xl mx-auto">
+          <p className="text-xl text-nexus-light/80 mb-4 max-w-2xl mx-auto">
             A virtual hub connecting the entire entrepreneurial ecosystem in Algeria.
-            Uniting startups, investors, incubators, and talent through AI-powered tools.
+          </p>
+          
+          <p className="text-2xl text-nexus-teal font-medium mb-8 max-w-2xl mx-auto">
+            Empowered by Connection
           </p>
           
           <div className="flex flex-col sm:flex-row justify-center gap-4 mb-12">
@@ -29,7 +32,7 @@ const HeroSection = () => {
               Join the Movement
               <ArrowRight size={18} className="ml-2 group-hover:translate-x-1 transition-transform" />
             </Button>
-            <Button size="lg" variant="outline" className="border-white/20 bg-white/5 hover:bg-white/10 text-white">
+            <Button size="lg" variant="outline" className="border-white/20 bg-white/5 hover:bg-white/10 text-nexus-light">
               Explore the Ecosystem
             </Button>
           </div>
@@ -42,7 +45,7 @@ const HeroSection = () => {
                   <div className="relative">
                     {/* Center hub */}
                     <div className="w-16 h-16 rounded-full bg-nexus-purple/80 flex items-center justify-center z-20 relative animate-pulse-slow">
-                      <span className="font-space font-bold text-sm">Up-Nexus</span>
+                      <span className="font-space font-bold text-sm text-nexus-dark">Up-Nexus</span>
                     </div>
                     
                     {/* Orbiting elements */}
@@ -52,19 +55,19 @@ const HeroSection = () => {
                       
                       {/* Orbiting items */}
                       <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-nexus-teal flex items-center justify-center animate-orbit">
-                        <span className="text-xs">Startups</span>
+                        <span className="text-xs text-nexus-dark">Startups</span>
                       </div>
                       
                       <div className="absolute top-1/2 left-0 -translate-x-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-nexus-purple flex items-center justify-center animate-orbit" style={{ animationDelay: '-5s' }}>
-                        <span className="text-xs">Investors</span>
+                        <span className="text-xs text-nexus-dark">Investors</span>
                       </div>
                       
                       <div className="absolute bottom-0 left-1/2 -translate-x-1/2 translate-y-1/2 w-8 h-8 rounded-full bg-nexus-teal flex items-center justify-center animate-orbit" style={{ animationDelay: '-10s' }}>
-                        <span className="text-xs">Talent</span>
+                        <span className="text-xs text-nexus-dark">Talent</span>
                       </div>
                       
                       <div className="absolute top-1/2 right-0 translate-x-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-nexus-purple flex items-center justify-center animate-orbit" style={{ animationDelay: '-15s' }}>
-                        <span className="text-xs">Support</span>
+                        <span className="text-xs text-nexus-dark">Support</span>
                       </div>
                     </div>
                   </div>

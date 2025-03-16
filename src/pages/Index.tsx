@@ -2,6 +2,9 @@
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import HeroSection from "../components/sections/HeroSection";
+import AnnouncementsSection from "../components/sections/AnnouncementsSection";
+import EcosystemSection from "../components/sections/EcosystemSection";
+import NewsSection from "../components/sections/NewsSection";
 import AboutSection from "../components/sections/AboutSection";
 import FeaturesSection from "../components/sections/FeaturesSection";
 import HowItWorksSection from "../components/sections/HowItWorksSection";
@@ -13,6 +16,9 @@ const Index = () => {
     <div className="min-h-screen bg-nexus-dark overflow-x-hidden">
       <Navbar />
       <HeroSection />
+      <AnnouncementsSection />
+      <EcosystemSection />
+      <NewsSection />
       <AboutSection />
       <FeaturesSection />
       <HowItWorksSection />

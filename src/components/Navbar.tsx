@@ -24,30 +24,39 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <a href="#" className="flex items-center">
-            <span className="text-white font-space font-bold text-xl">
+            <span className="text-nexus-light font-space font-bold text-xl">
               <span className="text-nexus-purple">Up</span>-Nexus
             </span>
           </a>
           
           {/* Desktop navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#about" className="text-white/80 hover:text-white transition-colors">
+            <a href="#announcements" className="text-nexus-light/80 hover:text-nexus-light transition-colors">
+              Announcements
+            </a>
+            <a href="#ecosystem" className="text-nexus-light/80 hover:text-nexus-light transition-colors">
+              Ecosystem
+            </a>
+            <a href="#news" className="text-nexus-light/80 hover:text-nexus-light transition-colors">
+              News
+            </a>
+            <a href="#about" className="text-nexus-light/80 hover:text-nexus-light transition-colors">
               About
             </a>
-            <a href="#features" className="text-white/80 hover:text-white transition-colors">
+            <a href="#features" className="text-nexus-light/80 hover:text-nexus-light transition-colors">
               Features
             </a>
-            <a href="#how-it-works" className="text-white/80 hover:text-white transition-colors">
+            <a href="#how-it-works" className="text-nexus-light/80 hover:text-nexus-light transition-colors">
               How It Works
             </a>
-            <a href="#pricing" className="text-white/80 hover:text-white transition-colors">
+            <a href="#pricing" className="text-nexus-light/80 hover:text-nexus-light transition-colors">
               Pricing
             </a>
           </nav>
           
           {/* CTA buttons */}
           <div className="hidden md:flex items-center space-x-4">
-            <Button className="bg-white/10 hover:bg-white/20 text-white rounded-full px-5">
+            <Button className="bg-white/10 hover:bg-white/20 text-nexus-light rounded-full px-5">
               Sign In
             </Button>
             <Button className="cta-primary">
@@ -62,7 +71,7 @@ const Navbar = () => {
               size="icon"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               aria-label="Toggle menu"
-              className="text-white"
+              className="text-nexus-light"
             >
               {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </Button>
@@ -75,35 +84,56 @@ const Navbar = () => {
         <div className="md:hidden bg-nexus-dark/95 backdrop-blur-lg border-t border-border/30">
           <div className="container py-4 px-4 space-y-4">
             <a
+              href="#announcements"
+              className="block py-2 text-nexus-light/80 hover:text-nexus-light transition-colors"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Announcements
+            </a>
+            <a
+              href="#ecosystem"
+              className="block py-2 text-nexus-light/80 hover:text-nexus-light transition-colors"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Ecosystem
+            </a>
+            <a
+              href="#news"
+              className="block py-2 text-nexus-light/80 hover:text-nexus-light transition-colors"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              News
+            </a>
+            <a
               href="#about"
-              className="block py-2 text-white/80 hover:text-white transition-colors"
+              className="block py-2 text-nexus-light/80 hover:text-nexus-light transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               About
             </a>
             <a
               href="#features"
-              className="block py-2 text-white/80 hover:text-white transition-colors"
+              className="block py-2 text-nexus-light/80 hover:text-nexus-light transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               Features
             </a>
             <a
               href="#how-it-works"
-              className="block py-2 text-white/80 hover:text-white transition-colors"
+              className="block py-2 text-nexus-light/80 hover:text-nexus-light transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               How It Works
             </a>
             <a
               href="#pricing"
-              className="block py-2 text-white/80 hover:text-white transition-colors"
+              className="block py-2 text-nexus-light/80 hover:text-nexus-light transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               Pricing
             </a>
             <div className="pt-4 flex flex-col space-y-3">
-              <Button className="bg-white/10 hover:bg-white/20 text-white w-full justify-center">
+              <Button className="bg-white/10 hover:bg-white/20 text-nexus-light w-full justify-center">
                 Sign In
               </Button>
               <Button className="cta-primary w-full justify-center">
