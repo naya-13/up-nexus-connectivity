@@ -43,15 +43,6 @@ const Navbar = () => {
             <a href="#about" className="text-nexus-light/80 hover:text-nexus-light transition-colors">
               About
             </a>
-            <a href="#features" className="text-nexus-light/80 hover:text-nexus-light transition-colors">
-              Features
-            </a>
-            <a href="#how-it-works" className="text-nexus-light/80 hover:text-nexus-light transition-colors">
-              How It Works
-            </a>
-            <a href="#pricing" className="text-nexus-light/80 hover:text-nexus-light transition-colors">
-              Pricing
-            </a>
           </nav>
           
           {/* CTA buttons */}
@@ -110,27 +101,6 @@ const Navbar = () => {
               onClick={() => setIsMenuOpen(false)}
             >
               About
-            </a>
-            <a
-              href="#features"
-              className="block py-2 text-nexus-light/80 hover:text-nexus-light transition-colors"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Features
-            </a>
-            <a
-              href="#how-it-works"
-              className="block py-2 text-nexus-light/80 hover:text-nexus-light transition-colors"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              How It Works
-            </a>
-            <a
-              href="#pricing"
-              className="block py-2 text-nexus-light/80 hover:text-nexus-light transition-colors"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Pricing
             </a>
             <div className="pt-4 flex flex-col space-y-3">
               <Button className="bg-white/10 hover:bg-white/20 text-nexus-light w-full justify-center">
