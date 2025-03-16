@@ -16,7 +16,7 @@ const HeroSection = () => {
           </div>
           
           <h1 className="headline animate-fade-in mb-6">
-            <span className="text-nexus-purple">Up-Nexus:</span> Gravity for Innovation
+            <span className="text-nexus-purple">Up-Nexus</span> Empowered by Connection
           </h1>
           
           <p className="text-xl text-nexus-light/80 mb-4 max-w-2xl mx-auto">
