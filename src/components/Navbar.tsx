@@ -24,9 +24,11 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <a href="#" className="flex items-center">
-            <span className="text-nexus-light font-space font-bold text-xl">
-              <span className="text-nexus-purple">Up</span>-Nexus
-            </span>
+            <img 
+              src="/lovable-uploads/ee06999c-c11c-48f5-b977-ee825e08a69b.png" 
+              alt="Up-Nexus Logo" 
+              className="h-8 md:h-10"
+            />
           </a>
           
           {/* Desktop navigation */}
