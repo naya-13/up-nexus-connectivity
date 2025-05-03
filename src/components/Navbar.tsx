@@ -40,6 +40,9 @@ const Navbar = () => {
             <a href="#news" className="text-nexus-light/80 hover:text-nexus-light transition-colors">
               News
             </a>
+            <a href="#community" className="text-nexus-light/80 hover:text-nexus-light transition-colors">
+              Community
+            </a>
             <a href="#about" className="text-nexus-light/80 hover:text-nexus-light transition-colors">
               About
             </a>
@@ -94,6 +97,13 @@ const Navbar = () => {
               onClick={() => setIsMenuOpen(false)}
             >
               News
+            </a>
+            <a
+              href="#community"
+              className="block py-2 text-nexus-light/80 hover:text-nexus-light transition-colors"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Community
             </a>
             <a
               href="#about"
